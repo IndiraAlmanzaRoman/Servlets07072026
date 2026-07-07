@@ -8,11 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Caballos</title>
 </head>
 <body>
-<h1>Persona</h1>
-<p>Nombre: ${persona.name} </p>
-<p>Tu correo es: ${persona.email} </p>
+<h1>Caballos</h1>
+<p>Nombre: ${caballos.name} </p>
+<p>Origen: ${caballos.origen} </p>
+<p>Color: ${caballos.color} </p>
+<p>Edad: ${caballos.edad} </p>
+<p>Velocidad máxima: ${caballos.velocidad} </p>
+
 </body>
 </html>

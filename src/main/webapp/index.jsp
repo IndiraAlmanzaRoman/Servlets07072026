@@ -8,14 +8,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Caballos</title>
 </head>
 <body>
+<h1>Caballos </h1>
 <form  action="${contextPath}/miPrimerServlet" method="post">
-    <label for="name">Name:</label>
+    <label for="name">Nombre:</label>
     <input type="text" id="name" name="name">
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email">
+    <label for="origen">Origen:</label>
+    <input type="text" id="origen" name="origen">
+    <label for="color">Color:</label>
+    <input type="text" id="color" name="color">
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad">
+    <label for="velocidad">Velocidad máxima:</label>
+    <input type="number" id="velocidad" name="velocidad">
 
     <button type="submit">Submit</button>
 </form>
