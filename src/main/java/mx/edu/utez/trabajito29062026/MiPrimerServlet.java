@@ -6,6 +6,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Random;
 
 @WebServlet(name = "miPrimerServlet", value = "/miPrimerServlet") //para poder vincularle una url para poder ejecutarlo
 
