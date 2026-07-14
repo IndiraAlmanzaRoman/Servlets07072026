@@ -11,11 +11,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class ConexionOracle {
-    private static final String USUARIO = "";
-    private static final String PASSWORD = "";
-    private static final String WALLET_PASSWORD = "";
-    private static final String NOMBRE_WALLET = "";
-    private static final String JDBC_URL = "jdbc:oracle:thin:@" + "";
+    private static final String USUARIO = "ADMIN";
+    private static final String PASSWORD = "RamonaQuesito1212";
+    private static final String WALLET_PASSWORD = "RamonaQuesito1212";
+    private static final String NOMBRE_WALLET = "Wallet_practicaPOO14072026";
+    private static final String JDBC_URL = "jdbc:oracle:thin:@" + "(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-queretaro-1.oraclecloud.com))(connect_data=(service_name=gf97b9fbc3721fc_practicapoo14072026_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))";
     private static final String TRUSTSTORE = "truststore.jks";
     private static final String KEYSTORE = "keystore.jks";
     private static ConexionOracle instancia;
